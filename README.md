@@ -28,12 +28,12 @@ This is a Streamlit web application that uses a trained LightGBM classifier to p
 
 📁 Project Structure
 
-├── data/                 # (optional) Raw or cleaned dataset
-├── models/               # Saved model (.pkl file)
-│   └── lgbm_model.pkl
-├── streamlit_app.py      # Main Streamlit app
-├── requirements.txt      # Required Python packages
-└── README.md             # This file
+├── data/ # (optional) Raw or cleaned dataset
+├── models/ # Saved model (.pkl file)
+│ └── lgbm_model.pkl
+├── streamlit_app.py # Main Streamlit app
+├── requirements.txt # Required Python packages
+└── README.md # This file
 
 ⚙️ How to Run the App
 
