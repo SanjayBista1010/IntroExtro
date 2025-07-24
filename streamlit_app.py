@@ -9,10 +9,10 @@ yes_no_map = {'No': 0, 'Yes': 1}
 st.title("Personality Prediction")
 
 time_alone = st.number_input("Time Spent Alone", min_value=0.0, max_value=12.0, step=0.1)
-stage_fear = st.selectbox("Stage Fear", options=["No", "Yes"])
+stage_fear = st.radio("Stage Fear", options=["No", "Yes"], horizontal=True)
 social_event = st.slider("Social Event Attendance", 0, 10)
 going_outside = st.slider("Going Outside Frequency", 0, 7)
-drained_after = st.selectbox("Drained After Socializing", options=["No", "Yes"])
+drained_after = st.radio("Drained After Socializing", options=["No", "Yes"], horizontal=True)
 friends_circle = st.slider("Friends Circle Size", 0, 15)
 post_freq = st.slider("Post Frequency", 0, 10)
 
