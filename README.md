@@ -45,13 +45,17 @@ This is a Streamlit web application that uses a trained LightGBM classifier to p
     Clone the repository or download the project folder:
 
 git clone <your-repo-url>
+
 cd <project-folder>
 
 Create a virtual environment (recommended):
 
 python -m venv venv
+
 venv\Scripts\activate     # On Windows
+
 source venv/bin/activate  # On Mac/Linux
+
 
 Install the required packages:
 
