@@ -1,6 +1,7 @@
 🧠 Personality Prediction App
 
 This is a Streamlit web application that uses a trained LightGBM classifier to predict whether a person is an Introvert or Extrovert based on their social behavior and lifestyle features.
+
 🚀 Features
 
     Predicts personality type using:
